@@ -1,0 +1,153 @@
+* {
+    box-sizing: border-box;
+}
+
+header,
+nav,
+main
+
+body {
+    background-color: #000000;
+    color: #ffffff;
+    font-family: Verdana, Arial, sans-serif;
+}
+
+
+header {
+    text-align: center;
+    background-position: right;
+    background-repeat: no-repeat;
+    height: 100px;
+    flex-basis: 100%;
+
+
+}
+
+h1 {
+    padding-top: 20px;
+    padding-left: 2em;
+
+
+
+}
+
+nav {
+    padding: 1em;
+    text-align: center;
+    font-weight: bold;
+    display: flex;
+    justify-content: space-around;
+    
+    width: 100%;
+    align-items: center;
+    height: 5em;
+    margin: 0;
+    background-image: url(/Users/stefan/Documents/480/images/clouds.jpeg)
+
+
+}
+
+nav a {
+    text-decoration: none;
+    font-weight: bold;
+    
+
+}
+
+nav a:link {
+    color: #000000;
+    
+}
+
+
+
+main {
+    flex: 8;
+    padding: 1em;
+    margin: auto;   
+}
+
+
+
+#image1 img {
+    max-width: 50%;
+    height: auto;
+    position:absolute; bottom:400px; right:150px;    
+}
+
+#image2 img {
+    max-width: 50%;
+    height: auto;
+    position:absolute; bottom:400px; left:150px;    
+    
+}
+
+#image3 img {
+    max-width: 50%;
+    height: auto;
+    position:absolute; bottom:200px; right:150px;    
+}
+
+#image4 img {
+    max-width: 50%;
+    height: auto;
+    position:absolute; bottom:200px; left:150px;    
+    
+}
+
+#terms {
+    position:absolute; bottom:335px; left:565px;    
+
+}
+
+input{
+    position:absolute; bottom:335px; left:590px;    
+
+}
+
+label {
+    position:absolute; bottom:365px; left:530px;    
+
+}
+
+#mobile {
+    display: none;
+}
+
+#desktop {
+    display: inline;
+}
+
+
+@media only screen and (max-width: 1024px) {
+    #wrapper {
+        width: auto;
+        margin: 0;
+        padding: 0;
+        flex-direction: column;
+        background-color: #F5F5F5;
+    }
+
+
+    nav a {
+        font-weight: bold;
+        align-items: center;
+        border-style: solid;
+        border-radius: 3px;
+        border-color: #CCCCCC;
+        padding: 0.5em;
+        border-width: 20%;
+        
+    }
+
+
+
+
+
+}
+
+
+
+
+
+
